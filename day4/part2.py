@@ -5,7 +5,6 @@ with open('input.txt', 'r') as file:
         line = line.strip()
         nums_list.append(line.split(' ')[2:])
 
-total_winnings = 0
 winnings_list = []
 
 for row in nums_list:
